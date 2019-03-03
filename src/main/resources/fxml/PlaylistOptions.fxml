@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" xmlns="http://javafx.com/javafx/8.0.161-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+         <children>
+            <CheckBox fx:id="chbPlaylistUse" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" selected="true" text="Use playlist" />
+         </children>
+      </HBox>
+      <HBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+         <children>
+            <CheckBox fx:id="chbPlaylistStart" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Start " HBox.hgrow="ALWAYS" />
+            <TextField fx:id="tfPlaylistStart" alignment="CENTER_RIGHT" disable="true" prefWidth="50.0" text="1" />
+         </children>
+      </HBox>
+      <HBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+         <children>
+            <CheckBox fx:id="chbPlaylistEnd" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="End" HBox.hgrow="ALWAYS" />
+            <TextField fx:id="tfPlaylistEnd" alignment="CENTER_RIGHT" disable="true" prefWidth="50.0" text="1" />
+         </children>
+      </HBox>
+   </children>
+</VBox>

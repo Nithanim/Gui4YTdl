@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8.0.161-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox>
+         <children>
+            <Label text="File:" />
+            <Label fx:id="lblFile" text="?" />
+         </children>
+      </HBox>
+      <HBox>
+         <children>
+            <Label text="Size:" />
+            <Label fx:id="lblSize" text="? KiB" />
+         </children>
+      </HBox>
+      <HBox>
+         <children>
+            <Label text="Speed:" />
+            <Label fx:id="lblSpeed" text="0 KiB/s" />
+         </children>
+      </HBox>
+      <StackPane>
+         <children>
+            <ProgressBar fx:id="barDownloadProgress" maxWidth="1.7976931348623157E308" prefHeight="20.0" prefWidth="400.0" progress="0.51" />
+            <Label fx:id="lblDownloadProgress" text="? %" />
+         </children>
+      </StackPane>
+   </children>
+</VBox>

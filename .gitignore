@@ -1,0 +1,15 @@
+/*
+/*
+
+!.gitignore
+!README.md
+!LICENSE
+
+!/pom.xml
+!/src
+
+!/.mvnw
+!/.mvnw/**
+/.mvn/wrapper/maven-wrapper.jar
+!/mvnw
+!/mvnw.cmd
