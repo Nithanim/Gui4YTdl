@@ -1,4 +1,4 @@
-package me.nithanim.test.gui4ytdl.parameters;
+package me.nithanim.gui4ytdl.parameters;
 
 import java.util.ArrayList;
 import java.util.List;

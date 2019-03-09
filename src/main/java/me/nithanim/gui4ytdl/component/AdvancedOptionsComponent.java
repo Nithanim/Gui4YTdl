@@ -1,4 +1,4 @@
-package me.nithanim.test.gui4ytdl.component;
+package me.nithanim.gui4ytdl.component;
 
 import java.io.IOException;
 import java.net.URL;
@@ -21,9 +21,9 @@ import javafx.scene.Parent;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.ComboBox;
 import javafx.scene.layout.Pane;
-import me.nithanim.test.gui4ytdl.parameters.IgnoreErrorsParameter;
-import me.nithanim.test.gui4ytdl.parameters.Parameter;
-import me.nithanim.test.gui4ytdl.parameters.RateLimitParameter;
+import me.nithanim.gui4ytdl.parameters.IgnoreErrorsParameter;
+import me.nithanim.gui4ytdl.parameters.Parameter;
+import me.nithanim.gui4ytdl.parameters.RateLimitParameter;
 
 public class AdvancedOptionsComponent implements Initializable, InvocationParameterSource {
     public static AdvancedOptionsComponent create(Pane target) {

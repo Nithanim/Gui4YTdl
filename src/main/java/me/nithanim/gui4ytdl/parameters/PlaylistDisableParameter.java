@@ -1,14 +1,14 @@
-package me.nithanim.test.gui4ytdl.parameters;
+package me.nithanim.gui4ytdl.parameters;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class IgnoreErrorsParameter implements Parameter {
+public class PlaylistDisableParameter implements Parameter {
     private final List<String> params;
 
-    public IgnoreErrorsParameter() {
+    public PlaylistDisableParameter() {
         params = new ArrayList<>();
-        params.add("-i");
+        params.add("--no-playlist");
     }
 
     @Override

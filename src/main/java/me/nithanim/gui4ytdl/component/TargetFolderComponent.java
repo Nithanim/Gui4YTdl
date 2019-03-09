@@ -1,4 +1,4 @@
-package me.nithanim.test.gui4ytdl.component;
+package me.nithanim.gui4ytdl.component;
 
 import java.io.IOException;
 import java.net.URL;

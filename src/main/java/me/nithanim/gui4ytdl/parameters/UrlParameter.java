@@ -1,15 +1,14 @@
-package me.nithanim.test.gui4ytdl.parameters;
+package me.nithanim.gui4ytdl.parameters;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class UsernameParameter implements Parameter {
+public class UrlParameter implements Parameter {
     private final List<String> params;
 
-    public UsernameParameter(String username) {
+    public UrlParameter(String url) {
         params = new ArrayList<>();
-        params.add("--username");
-        params.add(username);
+        params.add(url);
     }
 
     @Override

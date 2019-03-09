@@ -1,4 +1,4 @@
-package me.nithanim.test.gui4ytdl.component;
+package me.nithanim.gui4ytdl.component;
 
 import java.io.IOException;
 import java.net.URL;
@@ -18,10 +18,10 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.TextFormatter;
 import javafx.scene.control.TextFormatter.Change;
 import javafx.scene.layout.Pane;
-import me.nithanim.test.gui4ytdl.parameters.Parameter;
-import me.nithanim.test.gui4ytdl.parameters.PlaylistDisableParameter;
-import me.nithanim.test.gui4ytdl.parameters.PlaylistEndParameter;
-import me.nithanim.test.gui4ytdl.parameters.PlaylistStartParameter;
+import me.nithanim.gui4ytdl.parameters.Parameter;
+import me.nithanim.gui4ytdl.parameters.PlaylistDisableParameter;
+import me.nithanim.gui4ytdl.parameters.PlaylistEndParameter;
+import me.nithanim.gui4ytdl.parameters.PlaylistStartParameter;
 
 public class PlaylistOptionsComponent implements Initializable, InvocationParameterSource {
     public static PlaylistOptionsComponent create(Pane target) {

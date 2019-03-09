@@ -1,10 +1,10 @@
-package me.nithanim.test.gui4ytdl;
+package me.nithanim.gui4ytdl;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
-import me.nithanim.test.gui4ytdl.parameters.Parameter;
+import me.nithanim.gui4ytdl.parameters.Parameter;
 
 public class CmdStringBuilder {
     private final List<Parameter> params = new ArrayList<>();

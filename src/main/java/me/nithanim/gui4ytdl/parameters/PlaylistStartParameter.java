@@ -1,14 +1,14 @@
-package me.nithanim.test.gui4ytdl.parameters;
+package me.nithanim.gui4ytdl.parameters;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class PlaylistEndParameter implements Parameter {
+public class PlaylistStartParameter implements Parameter {
     private final List<String> params;
 
-    public PlaylistEndParameter(int n) {
+    public PlaylistStartParameter(int n) {
         params = new ArrayList<>();
-        params.add("--playlist-end");
+        params.add("--playlist-start");
         params.add(String.valueOf(n));
     }
 

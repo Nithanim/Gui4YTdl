@@ -1,4 +1,4 @@
-package me.nithanim.test.gui4ytdl;
+package me.nithanim.gui4ytdl;
 
 import java.io.IOException;
 import javafx.application.Application;

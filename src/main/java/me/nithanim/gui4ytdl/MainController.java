@@ -1,4 +1,4 @@
-package me.nithanim.test.gui4ytdl;
+package me.nithanim.gui4ytdl;
 
 import com.sun.javafx.binding.ObjectConstant;
 import java.net.URL;
@@ -22,10 +22,10 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.Pane;
 import lombok.SneakyThrows;
-import me.nithanim.test.gui4ytdl.component.AdvancedOptionsComponent;
-import me.nithanim.test.gui4ytdl.component.ProgressComponent;
-import me.nithanim.test.gui4ytdl.parameters.FormatParameter;
-import me.nithanim.test.gui4ytdl.parameters.UrlParameter;
+import me.nithanim.gui4ytdl.component.AdvancedOptionsComponent;
+import me.nithanim.gui4ytdl.component.ProgressComponent;
+import me.nithanim.gui4ytdl.parameters.FormatParameter;
+import me.nithanim.gui4ytdl.parameters.UrlParameter;
 
 public class MainController implements Initializable {
     @FXML

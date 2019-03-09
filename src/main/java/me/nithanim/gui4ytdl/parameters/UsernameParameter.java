@@ -1,15 +1,15 @@
-package me.nithanim.test.gui4ytdl.parameters;
+package me.nithanim.gui4ytdl.parameters;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class FormatParameter implements Parameter {
+public class UsernameParameter implements Parameter {
     private final List<String> params;
 
-    public FormatParameter(String formatCode) {
+    public UsernameParameter(String username) {
         params = new ArrayList<>();
-        params.add("-f");
-        params.add(formatCode);
+        params.add("--username");
+        params.add(username);
     }
 
     @Override

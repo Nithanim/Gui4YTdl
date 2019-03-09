@@ -1,4 +1,4 @@
-package me.nithanim.test.gui4ytdl.component;
+package me.nithanim.gui4ytdl.component;
 
 import java.io.IOException;
 import java.net.URL;
@@ -12,7 +12,7 @@ import javafx.scene.Parent;
 import javafx.scene.control.Label;
 import javafx.scene.control.ProgressBar;
 import javafx.scene.layout.Pane;
-import me.nithanim.test.gui4ytdl.Download;
+import me.nithanim.gui4ytdl.Download;
 
 public class ProgressComponent implements Initializable {
     public static ProgressComponent create(Pane target) {
