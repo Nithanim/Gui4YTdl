@@ -113,10 +113,8 @@
     </profiles>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <mainClass>me.nithanim.test.gui4ytdl.MainApp</mainClass>
-        <mainClass>me.nithanim.test.gui4ytdl.MainApp</mainClass>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <mainClass>me.nithanim.test.gui4ytdl.MainApp</mainClass>
+        <mainClass>me.nithanim.gui4ytdl.MainApp</mainClass>
     </properties>
 </project>
